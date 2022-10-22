@@ -1,0 +1,20 @@
+{
+  "name": "planeuml",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/g": "^5.7.6",
+    "@antv/g6": "1.2.8",
+    "chevrotain": "^10.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0"
+  }
+}
